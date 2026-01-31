@@ -58,7 +58,7 @@
     
     <ItemGroup>
         <Reference Include="mrgrm7.LethalCasino.dll" Publicize="true">
-            <HintPath>C:\Users\nodab\AppData\Roaming\com.kesomannen.gale\lethal-company\profiles\Modding_Test\BepInEx\plugins\mrgrm7-LethalCasino\mrgrm7.LethalCasino.dll</HintPath>
+            <HintPath>references/mrgrm7.LethalCasino.dll</HintPath>
         </Reference>
     </ItemGroup>
 </Project>
