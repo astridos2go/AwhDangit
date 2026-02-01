@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using AwhDangit.Custom;
+﻿using AwhDangit.Custom;
 using GameNetcodeStuff;
 using HarmonyLib;
-using LethalCasino;
 
 namespace AwhDangit.Patches;
 

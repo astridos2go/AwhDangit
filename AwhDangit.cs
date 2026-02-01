@@ -1,9 +1,11 @@
+using System.Reflection;
 using AwhDangit.Config;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 using LobbyCompatibility.Attributes;
 using LobbyCompatibility.Enums;
+using UnityEngine;
 
 namespace AwhDangit;
 
@@ -11,6 +13,7 @@ namespace AwhDangit;
 [BepInDependency("BMX.LobbyCompatibility", "1.5.0")]
 [BepInDependency("mrgrm7.LethalCasino", "1.1.0")]
 [BepInDependency("com.sigurd.csync", "5.0.0")]
+[BepInDependency("Xilophor.StaticNetcodeLib", "1.2.0")]
 [LobbyCompatibility(CompatibilityLevel.Everyone, VersionStrictness.Minor)]
 public class AwhDangit : BaseUnityPlugin
 {
